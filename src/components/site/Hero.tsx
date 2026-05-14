@@ -45,9 +45,9 @@ export function Hero() {
           initial={{ opacity: 0, y: 16, filter: "blur(8px)" }}
           animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           transition={{ duration: 1, ease, delay: 0.25 }}
-          className="mt-4 sm:mt-6 text-base sm:text-xl md:text-2xl font-medium tracking-[-0.01em] text-foreground/90"
+          className="text-orange-100"
         >
-          Agentic Systems Architecture
+          The Complete End-To-End Future-Proofed System{"\n"}For Your Business Operations
         </motion.p>
 
         <motion.p
@@ -56,7 +56,7 @@ export function Hero() {
           transition={{ duration: 1, ease, delay: 0.4 }}
           className="mt-3 max-w-xl text-sm sm:text-base text-muted-foreground/80"
         >
-          ESHITA SARAWGI
+          Agentic Systems Architecture
         </motion.p>
 
         <motion.div
