@@ -45,7 +45,7 @@ export function About() {
                 <div className="flex items-center justify-between">
                   <div>
                     <div className="text-[11px] uppercase tracking-[0.28em] text-muted-foreground">Founder</div>
-                    <div className="mt-2 text-xl font-semibold tracking-[-0.02em] text-foreground">NETRA</div>
+                    <div className="mt-2 text-xl font-semibold tracking-[-0.02em] text-foreground">ESHITA SARAWGI</div>
                   </div>
                   <div className="h-10 w-10 rounded-full border border-primary/40 bg-primary/10 flex items-center justify-center">
                     <span className="h-2 w-2 rounded-full bg-primary shadow-[0_0_12px_var(--glow)]" />
