@@ -23,7 +23,7 @@ export function Process() {
             <span className="h-px w-8 bg-gradient-to-l from-transparent to-primary" />
           </div>
           <h2 className="mx-auto max-w-3xl text-3xl sm:text-5xl md:text-6xl font-black tracking-[-0.035em] text-gradient">
-            Your path to autonomous success.
+            Your Path To Autonomous Success.
           </h2>
         </div>
 
