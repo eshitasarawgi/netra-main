@@ -34,7 +34,7 @@ export function MorphingWords() {
           transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
           className="text-3xl sm:text-5xl md:text-6xl font-black tracking-[-0.03em] text-gradient"
         >
-          You Name It, We Automate It
+          You Envision It, We Engineer It
         </motion.h2>
 
         <div className="mt-12 sm:mt-16 flex items-center justify-center min-h-[3.5rem] sm:min-h-[5rem]">
@@ -45,7 +45,7 @@ export function MorphingWords() {
               animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
               exit={{ opacity: 0, y: -18, filter: "blur(14px)" }}
               transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-              className="inline-block text-2xl sm:text-4xl md:text-5xl font-medium tracking-[-0.02em] text-gradient-glow"
+              className="inline-block text-2xl sm:text-4xl md:text-5xl font-mono font-black tracking-[-0.02em] text-gradient-glow"
             >
               {WORDS[i]}
             </motion.span>
@@ -57,12 +57,13 @@ export function MorphingWords() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1], delay: 0.15 }}
-          className="mx-auto mt-16 max-w-2xl text-base sm:text-lg leading-relaxed text-muted-foreground"
+          className="mx-auto mt-16 max-w-2xl text-lg sm:text-xl leading-relaxed font-semibold text-muted-foreground"
         >
-          NETRA builds intelligent end-to-end systems that orchestrate your entire operations
-          — from compliance to client invoicing.
-          <br className="hidden sm:block" />
-          <span className="text-foreground/80">One unified infrastructure. Infinite applications.</span>
+          NETRA Designs The Intelligence Layer Behind Modern Business Operations.
+          <br />
+          From Compliance Management To Client Invoicing
+          <br />
+          <span className="text-foreground/80">Fully Orchestrated, Fully Unified</span>
         </motion.p>
       </div>
     </section>
