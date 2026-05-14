@@ -1,20 +1,26 @@
 import { motion } from "framer-motion";
+import why1 from "@/assets/why/why1.jpg";
+import why2 from "@/assets/why/why2.jpg";
+import why3 from "@/assets/why/why3.jpg";
 
 const CARDS = [
   {
     n: "01",
     title: "AI-Empowered Design",
     desc: "Intelligent systems that adapt to your business — not templates.",
+    img: why1,
   },
   {
     n: "02",
     title: "Vertical-Specific Intelligence",
     desc: "Industry workflows, pre-trained and production-ready.",
+    img: why2,
   },
   {
     n: "03",
     title: "Launch in Weeks, Not Months",
     desc: "From discovery to deployed system in 3–4 weeks.",
+    img: why3,
   },
 ];
 
@@ -47,14 +53,22 @@ export function WhyNetra() {
               <div className="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700" style={{ background: "var(--gradient-glow)" }} />
               <div className="relative">
                 <div className="mb-8 aspect-[4/3] w-full rounded-xl border border-border bg-gradient-to-br from-surface to-background overflow-hidden relative">
-                  <div className="absolute inset-0 opacity-30 bg-[radial-gradient(circle_at_30%_20%,var(--glow),transparent_60%)]" />
-                  <div className="absolute inset-0 opacity-25 bg-[radial-gradient(circle_at_80%_80%,var(--glow-secondary),transparent_60%)]" />
-                  <div className="absolute inset-0 grid grid-cols-6 grid-rows-6">
+                  <img
+                    src={c.img}
+                    alt={c.title}
+                    loading="lazy"
+                    className="absolute inset-0 h-full w-full object-cover opacity-80 transition-all duration-700 group-hover:opacity-100 group-hover:scale-[1.04]"
+                    style={{ filter: "saturate(0.7) contrast(1.05) brightness(0.85)" }}
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-br from-background/40 via-transparent to-background/80 mix-blend-multiply" />
+                  <div className="absolute inset-0 opacity-40 bg-[radial-gradient(circle_at_30%_20%,var(--glow),transparent_60%)] mix-blend-screen" />
+                  <div className="absolute inset-0 opacity-30 bg-[radial-gradient(circle_at_80%_80%,var(--glow-secondary),transparent_60%)] mix-blend-screen" />
+                  <div className="pointer-events-none absolute inset-0 grid grid-cols-6 grid-rows-6">
                     {Array.from({ length: 36 }).map((_, k) => (
                       <div key={k} className="border border-white/[0.03]" />
                     ))}
                   </div>
-                  <div className="absolute bottom-3 right-3 text-[10px] uppercase tracking-[0.25em] text-muted-foreground/70">
+                  <div className="absolute bottom-3 right-3 text-[10px] uppercase tracking-[0.25em] text-foreground/80">
                     NETRA / {c.n}
                   </div>
                 </div>
