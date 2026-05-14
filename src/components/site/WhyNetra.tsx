@@ -7,7 +7,7 @@ const CARDS = [
   {
     n: "01",
     title: "AI-Empowered Design",
-    desc: "Intelligent systems that adapt to your business — not templates.",
+    desc: "Your Business Should Never Adapt To Software. Your Systems Should Adapt To You.",
     img: why1,
   },
   {
@@ -18,7 +18,7 @@ const CARDS = [
   },
   {
     n: "03",
-    title: "Launch in Weeks, Not Months",
+    title: "Launch In Weeks, Not Months",
     desc: "From discovery to deployed system in 3–4 weeks.",
     img: why3,
   },
@@ -35,7 +35,7 @@ export function WhyNetra() {
               Why NETRA
             </div>
             <h2 className="max-w-2xl text-3xl sm:text-5xl md:text-6xl font-black tracking-[-0.035em] text-gradient">
-              Engineered for the firms that intend to lead.
+              Engineered For The Firms That Intend To Lead.
             </h2>
           </div>
         </div>
@@ -73,7 +73,7 @@ export function WhyNetra() {
                   </div>
                 </div>
                 <div className="mb-3 text-[11px] uppercase tracking-[0.28em] text-primary/80">{c.n}</div>
-                <h3 className="text-xl sm:text-2xl font-semibold tracking-[-0.02em] text-foreground">{c.title}</h3>
+                <h3 className="text-xl sm:text-2xl font-black tracking-[-0.02em] text-orange-100">{c.title}</h3>
                 <p className="mt-3 text-sm sm:text-base leading-relaxed text-muted-foreground">{c.desc}</p>
               </div>
             </motion.article>

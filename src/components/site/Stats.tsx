@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 
 const STATS = [
   { value: 60, suffix: "+", label: "Workflows Automated" },
-  { value: 10000, suffix: "+", label: "Hours Saved", format: (n: number) => `${Math.round(n / 1000)}K` },
+  { value: 10000, suffix: "+", label: "Hours Saved", format: (n: number) => Math.round(n).toLocaleString("en-US") },
   { value: 20, suffix: "+", label: "Firms Transformed" },
 ];
 

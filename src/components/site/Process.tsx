@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 
 const STEPS = [
-  { n: "01", title: "Audit", desc: "We map your workflows in one session." },
-  { n: "02", title: "Architect", desc: "We design the system blueprint." },
-  { n: "03", title: "Deploy", desc: "We build and integrate live infrastructure." },
-  { n: "04", title: "Optimize", desc: "We monitor and scale with you." },
+  { n: "01", title: "AUDIT", desc: "We Map Your Operations In One Consulting Session." },
+  { n: "02", title: "ARCHITECT", desc: "We Design The System Blueprint To Be Implemented." },
+  { n: "03", title: "DEPLOY", desc: "We Build And Integrate The Live Infrastructure, With Your Existing Operations." },
+  { n: "04", title: "OPTIMISE", desc: "24x7 Monitoring And Scaling With You." },
 ];
 
 export function Process() {
@@ -23,7 +23,7 @@ export function Process() {
             <span className="h-px w-8 bg-gradient-to-l from-transparent to-primary" />
           </div>
           <h2 className="mx-auto max-w-3xl text-3xl sm:text-5xl md:text-6xl font-black tracking-[-0.035em] text-gradient">
-            Your path to autonomous success.
+            Your Path To Autonomous Success.
           </h2>
         </div>
 
@@ -48,8 +48,8 @@ export function Process() {
                     </svg>
                   </span>
                 </div>
-                <h3 className="mt-10 text-2xl sm:text-3xl font-semibold tracking-[-0.025em] text-foreground">{s.title}</h3>
-                <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{s.desc}</p>
+                <h3 className="mt-10 text-2xl sm:text-3xl font-black tracking-[-0.025em] text-cyan-200">{s.title}</h3>
+                <p className="mt-3 text-base sm:text-lg leading-relaxed text-muted-foreground">{s.desc}</p>
                 <div className="mt-8 h-px w-full bg-gradient-to-r from-primary/30 via-secondary/20 to-transparent" />
               </div>
             </motion.div>

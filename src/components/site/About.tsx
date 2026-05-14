@@ -18,11 +18,11 @@ export function About() {
         >
           <div className="mb-4 flex items-center justify-center gap-3 text-[11px] uppercase tracking-[0.28em] text-muted-foreground">
             <span className="h-px w-8 bg-gradient-to-r from-transparent to-primary" />
-            About / Founder
+            About Us
             <span className="h-px w-8 bg-gradient-to-l from-transparent to-primary" />
           </div>
-          <h2 className="mx-auto max-w-4xl text-3xl sm:text-5xl md:text-6xl font-black tracking-[-0.035em] text-gradient">
-            Designed for firms that intend to lead.
+          <h2 className="mx-auto max-w-4xl text-3xl sm:text-5xl md:text-6xl font-black tracking-[-0.035em] text-orange-100">
+            Designed For The Firms Defining Tomorrow.
           </h2>
         </motion.div>
 
@@ -45,7 +45,7 @@ export function About() {
                 <div className="flex items-center justify-between">
                   <div>
                     <div className="text-[11px] uppercase tracking-[0.28em] text-muted-foreground">Founder</div>
-                    <div className="mt-2 text-xl font-semibold tracking-[-0.02em] text-foreground">NETRA</div>
+                    <div className="mt-2 text-xl font-semibold tracking-[-0.02em] text-foreground">ESHITA SARAWGI</div>
                   </div>
                   <div className="h-10 w-10 rounded-full border border-primary/40 bg-primary/10 flex items-center justify-center">
                     <span className="h-2 w-2 rounded-full bg-primary shadow-[0_0_12px_var(--glow)]" />
@@ -60,16 +60,16 @@ export function About() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-80px" }}
             transition={{ duration: 1, ease: [0.22, 1, 0.36, 1], delay: 0.1 }}
-            className="lg:col-span-7 space-y-6 text-base sm:text-lg leading-relaxed text-muted-foreground"
+            className="lg:col-span-7 space-y-6 text-base sm:text-lg leading-relaxed font-extralight text-foreground/85"
           >
             <p>
-              I’m less interested in the AI hype — and more interested in building systems that genuinely improve how businesses operate.
+              I’m less interested in the AI hype and more interested in building systems that genuinely improve how businesses operate.
             </p>
             <p>
-              That idea became the foundation for <span className="text-foreground">NETRA</span>, where I architect custom systems that help businesses function with greater intelligence, speed, and scalability.
+              That idea became the foundation for <span className="font-bold text-foreground">NETRA</span>, where I architect custom systems that help businesses function with greater intelligence, speed, and scalability.
             </p>
             <p>
-              My approach for every system I’ve designed so far is simple: solutions provided by NETRA should simplify execution, not complicate it.
+              My approach for every system I’ve designed so far is simple: <span className="font-bold text-foreground">Solutions provided by NETRA Should Simplify Execution, Not Complicate It.</span>
             </p>
             <p>
               The priorities I work by include understanding operational bottlenecks, identifying high-leverage workflows, and architecting intelligent infrastructures designed for measurable impact.
@@ -82,7 +82,9 @@ export function About() {
               transition={{ duration: 1, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
               className="!mt-12 text-2xl sm:text-4xl md:text-5xl font-black leading-[1.05] tracking-[-0.035em] text-gradient-glow"
             >
-              The firms that move first will define the industry. Let’s build yours.
+              The Firms That Move First Will Define Their Industry.
+              <br />
+              Let’s Dominate.
             </motion.p>
           </motion.div>
         </div>

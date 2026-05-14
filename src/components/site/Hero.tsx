@@ -47,7 +47,7 @@ export function Hero() {
           transition={{ duration: 1, ease, delay: 0.25 }}
           className="mt-3 max-w-xl sm:text-base text-muted-foreground/80 text-xl font-mono font-bold text-slate-100"
         >
-          Future-Proofing Your Business Operations
+          Agentic Systems Architecture
         </motion.p>
 
         <motion.p
@@ -56,7 +56,7 @@ export function Hero() {
           transition={{ duration: 1, ease, delay: 0.4 }}
           className="mt-3 max-w-xl sm:text-base text-muted-foreground/80 text-xl font-bold font-sans text-orange-100"
         >
-          Agentic Systems Architecture
+          Intelligent Infrastructure For Modern Businesses
         </motion.p>
 
         <motion.div
@@ -84,7 +84,7 @@ export function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1.2, ease, delay: 1.1 }}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-[10px] uppercase tracking-[0.3em] text-muted-foreground/70"
+          className="mt-10 flex flex-col items-center gap-2 text-[10px] uppercase tracking-[0.3em] text-muted-foreground/70"
         >
           <span>Scroll</span>
           <span className="relative h-8 w-px overflow-hidden bg-border">
