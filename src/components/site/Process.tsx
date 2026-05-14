@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 
 const STEPS = [
-  { n: "01", title: "Audit", desc: "We map your workflows in one session." },
-  { n: "02", title: "Architect", desc: "We design the system blueprint." },
-  { n: "03", title: "Deploy", desc: "We build and integrate live infrastructure." },
-  { n: "04", title: "Optimize", desc: "We monitor and scale with you." },
+  { n: "01", title: "AUDIT", desc: "We Map Your Operations In One Consulting Session." },
+  { n: "02", title: "ARCHITECT", desc: "We Design The System Blueprint To Be Implemented." },
+  { n: "03", title: "DEPLOY", desc: "We Build And Integrate The Live Infrastructure, With Your Existing Operations." },
+  { n: "04", title: "OPTIMISE", desc: "24x7 Monitoring And Scaling With You." },
 ];
 
 export function Process() {
