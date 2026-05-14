@@ -35,7 +35,7 @@ export function WhyNetra() {
               Why NETRA
             </div>
             <h2 className="max-w-2xl text-3xl sm:text-5xl md:text-6xl font-black tracking-[-0.035em] text-gradient">
-              Engineered for the firms that intend to lead.
+              Engineered For The Firms That Intend To Lead.
             </h2>
           </div>
         </div>
