@@ -18,15 +18,17 @@ export function PositioningCard() {
           <div className="relative flex flex-col gap-6">
             <div className="flex items-center gap-3 text-[11px] uppercase tracking-[0.28em] text-muted-foreground">
               <span className="h-px w-8 bg-gradient-to-r from-primary to-transparent" />
-              Positioning
+              Our Positioning
             </div>
             <p className="text-2xl sm:text-4xl md:text-5xl font-medium leading-[1.15] tracking-[-0.025em] text-foreground">
-              NETRA is{" "}
+              NETRA Is{" "}
               <span className="text-gradient-glow font-semibold">
-                Rajasthan’s first end-to-end agentic software solutions provider.
+                Rajasthan’s First End-To-End Agentic Software Solutions Provider.
               </span>{" "}
               <span className="text-muted-foreground">
-                We’re building the future of business operations — one intelligent infrastructure at a time.
+                We’re Building The Future Of Business Operations.
+                <br />
+                One Intelligent Infrastructure At A Time.
               </span>
             </p>
           </div>
