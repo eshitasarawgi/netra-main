@@ -7,7 +7,7 @@ const CARDS = [
   {
     n: "01",
     title: "AI-Empowered Design",
-    desc: "Intelligent systems that adapt to your business — not templates.",
+    desc: "Your Business Should Never Adapt To Software. Your Systems Should Adapt To You.",
     img: why1,
   },
   {
@@ -18,7 +18,7 @@ const CARDS = [
   },
   {
     n: "03",
-    title: "Launch in Weeks, Not Months",
+    title: "Launch In Weeks, Not Months",
     desc: "From discovery to deployed system in 3–4 weeks.",
     img: why3,
   },
