@@ -47,7 +47,7 @@ export function Hero() {
           transition={{ duration: 1, ease, delay: 0.25 }}
           className="mt-3 max-w-xl sm:text-base text-muted-foreground/80 text-xl font-mono font-bold text-slate-100"
         >
-          Future-Proofing Your Business Operations
+          Agentic Systems Architecture
         </motion.p>
 
         <motion.p
@@ -56,7 +56,7 @@ export function Hero() {
           transition={{ duration: 1, ease, delay: 0.4 }}
           className="mt-3 max-w-xl sm:text-base text-muted-foreground/80 text-xl font-bold font-sans text-orange-100"
         >
-          Agentic Systems Architecture
+          Intelligent Infrastructure For Modern Businesses
         </motion.p>
 
         <motion.div
