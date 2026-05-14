@@ -18,11 +18,11 @@ export function About() {
         >
           <div className="mb-4 flex items-center justify-center gap-3 text-[11px] uppercase tracking-[0.28em] text-muted-foreground">
             <span className="h-px w-8 bg-gradient-to-r from-transparent to-primary" />
-            About / Founder
+            About Us
             <span className="h-px w-8 bg-gradient-to-l from-transparent to-primary" />
           </div>
-          <h2 className="mx-auto max-w-4xl text-3xl sm:text-5xl md:text-6xl font-black tracking-[-0.035em] text-gradient">
-            Designed for firms that intend to lead.
+          <h2 className="mx-auto max-w-4xl text-3xl sm:text-5xl md:text-6xl font-black tracking-[-0.035em] text-orange-100">
+            Designed For The Firms Defining Tomorrow.
           </h2>
         </motion.div>
 
