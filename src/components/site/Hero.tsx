@@ -35,7 +35,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 24, filter: "blur(12px)" }}
           animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           transition={{ duration: 1.1, ease, delay: 0.05 }}
-          className="font-black leading-[0.85] tracking-[-0.04em] text-foreground"
+          className="mt-4 sm:mt-6 sm:text-xl md:text-2xl tracking-[-0.01em] text-foreground/90 text-lg font-mono text-stone-50 shadow-md font-semibold"
           style={{ fontSize: "clamp(4.5rem, 18vw, 14rem)" }}
         >
           NETRA
@@ -56,7 +56,7 @@ export function Hero() {
           transition={{ duration: 1, ease, delay: 0.4 }}
           className="mt-3 max-w-xl text-sm sm:text-base text-muted-foreground/80"
         >
-          The system that runs your business.
+          ESHITA SARAWGI
         </motion.p>
 
         <motion.div
