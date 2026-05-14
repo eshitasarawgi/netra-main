@@ -48,8 +48,8 @@ export function Process() {
                     </svg>
                   </span>
                 </div>
-                <h3 className="mt-10 text-2xl sm:text-3xl font-semibold tracking-[-0.025em] text-foreground">{s.title}</h3>
-                <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{s.desc}</p>
+                <h3 className="mt-10 text-2xl sm:text-3xl font-black tracking-[-0.025em] text-cyan-200">{s.title}</h3>
+                <p className="mt-3 text-base sm:text-lg leading-relaxed text-muted-foreground">{s.desc}</p>
                 <div className="mt-8 h-px w-full bg-gradient-to-r from-primary/30 via-secondary/20 to-transparent" />
               </div>
             </motion.div>
