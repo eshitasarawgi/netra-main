@@ -44,10 +44,6 @@ export function Navbar() {
             onClick={(e) => handleClick(e, "#hero")}
             className="flex items-center gap-2 group"
           >
-            <span className="relative flex h-7 w-7 items-center justify-center rounded-md border border-primary/40 bg-primary/10">
-              <span className="absolute inset-0 rounded-md animate-pulse-glow bg-primary/20 blur-md" />
-              <span className="relative h-1.5 w-1.5 rounded-full bg-primary shadow-[0_0_12px_var(--glow)]" />
-            </span>
             <span className="font-black tracking-[0.18em] text-sm text-foreground">NETRA</span>
           </a>
 

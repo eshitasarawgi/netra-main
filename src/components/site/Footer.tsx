@@ -5,9 +5,6 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-14">
         <div className="flex flex-col gap-10 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex items-center gap-3">
-            <span className="relative flex h-8 w-8 items-center justify-center rounded-md border border-primary/40 bg-primary/10">
-              <span className="h-1.5 w-1.5 rounded-full bg-primary shadow-[0_0_12px_var(--glow)]" />
-            </span>
             <div>
               <div className="font-black tracking-[0.18em] text-foreground">NETRA</div>
               <div className="text-[11px] uppercase tracking-[0.22em] text-muted-foreground">Agentic Systems Architecture</div>
@@ -23,10 +20,15 @@ export function Footer() {
           </nav>
 
           <div className="flex items-center gap-3">
-            {["LI", "X", "IG"].map((s) => (
+            {[
+              { s: "LI", href: "https://www.linkedin.com/" },
+              { s: "IG", href: "https://www.instagram.com/" },
+            ].map(({ s, href }) => (
               <a
                 key={s}
-                href="#"
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="h-9 w-9 rounded-full glass flex items-center justify-center text-[11px] font-medium text-muted-foreground hover:text-foreground hover:border-glow transition-all"
               >
                 {s}
