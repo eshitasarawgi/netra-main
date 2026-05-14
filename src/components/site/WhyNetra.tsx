@@ -73,7 +73,7 @@ export function WhyNetra() {
                   </div>
                 </div>
                 <div className="mb-3 text-[11px] uppercase tracking-[0.28em] text-primary/80">{c.n}</div>
-                <h3 className="text-xl sm:text-2xl font-semibold tracking-[-0.02em] text-foreground">{c.title}</h3>
+                <h3 className="text-xl sm:text-2xl font-black tracking-[-0.02em] text-orange-100">{c.title}</h3>
                 <p className="mt-3 text-sm sm:text-base leading-relaxed text-muted-foreground">{c.desc}</p>
               </div>
             </motion.article>
