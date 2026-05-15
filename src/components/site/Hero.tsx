@@ -45,7 +45,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 16, filter: "blur(8px)" }}
           animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           transition={{ duration: 1, ease, delay: 0.25 }}
-          className="mt-3 max-w-xl sm:text-base text-muted-foreground/80 text-xl font-mono font-bold text-slate-100"
+          className="mt-3 max-w-xl text-muted-foreground/80 text-xl font-bold text-orange-100 sm:text-xl font-sans"
         >
           Agentic Systems Architecture
         </motion.p>
