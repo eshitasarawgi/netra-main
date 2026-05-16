@@ -16,8 +16,8 @@ export function Hero() {
       </div>
 
       {/* Vignette + tint to ground the shader in palette */}
-      <div className="pointer-events-none absolute inset-0 z-10 bg-[radial-gradient(ellipse_at_center,transparent_30%,rgba(5,8,22,0.85)_85%)]" />
-      <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-b from-background/70 via-transparent to-background" />
+      <div className="pointer-events-none absolute inset-0 z-10 bg-[radial-gradient(ellipse_at_center,transparent_45%,rgba(5,8,22,0.65)_95%)]" />
+      <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-b from-background/30 via-transparent to-background/80" />
 
       {/* Content */}
       <div className="relative z-20 mx-auto flex min-h-[100svh] max-w-6xl flex-col items-center justify-center px-6 text-center">
