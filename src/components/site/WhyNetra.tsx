@@ -56,7 +56,9 @@ export function WhyNetra() {
                   <img
                     src={c.img}
                     alt={c.title}
-                    loading="lazy"
+                    loading="eager"
+                    decoding="async"
+                    fetchPriority="high"
                     className="absolute inset-0 h-full w-full object-cover opacity-80 transition-all duration-700 group-hover:opacity-100 group-hover:scale-[1.04]"
                     style={{ filter: "saturate(0.7) contrast(1.05) brightness(0.85)" }}
                   />

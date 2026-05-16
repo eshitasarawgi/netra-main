@@ -16,8 +16,8 @@ export function Hero() {
       </div>
 
       {/* Vignette + tint to ground the shader in palette */}
-      <div className="pointer-events-none absolute inset-0 z-10 bg-[radial-gradient(ellipse_at_center,transparent_30%,rgba(5,8,22,0.85)_85%)]" />
-      <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-b from-background/70 via-transparent to-background" />
+      <div className="pointer-events-none absolute inset-0 z-10 bg-[radial-gradient(ellipse_at_center,transparent_45%,rgba(5,8,22,0.65)_95%)]" />
+      <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-b from-background/30 via-transparent to-background/80" />
 
       {/* Content */}
       <div className="relative z-20 mx-auto flex min-h-[100svh] max-w-6xl flex-col items-center justify-center px-6 text-center">
@@ -35,8 +35,8 @@ export function Hero() {
           initial={{ opacity: 0, y: 24, filter: "blur(12px)" }}
           animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           transition={{ duration: 1.1, ease, delay: 0.05 }}
-          className="mt-4 sm:mt-6 sm:text-xl md:text-2xl tracking-[-0.01em] text-foreground/90 text-lg font-mono text-stone-50 shadow-md font-semibold"
-          style={{ fontSize: "clamp(4.5rem, 18vw, 14rem)" }}
+          className="tracking-[-0.02em] text-foreground/90 font-mono text-stone-50 font-semibold leading-[0.9]"
+          style={{ fontSize: "clamp(3.75rem, 17vw, 14rem)" }}
         >
           NETRA
         </motion.h1>
@@ -45,7 +45,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 16, filter: "blur(8px)" }}
           animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           transition={{ duration: 1, ease, delay: 0.25 }}
-          className="mt-3 max-w-xl text-muted-foreground/80 text-xl font-bold text-orange-100 sm:text-xl font-sans"
+          className="mt-2 max-w-xl text-base sm:text-xl font-bold text-orange-100 font-mono"
         >
           Agentic Systems Architecture
         </motion.p>
@@ -54,7 +54,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease, delay: 0.4 }}
-          className="mt-3 max-w-xl sm:text-base text-muted-foreground/80 text-xl font-bold font-sans text-orange-100"
+          className="mt-1 max-w-xl text-sm sm:text-base font-bold font-mono text-orange-100/90"
         >
           Intelligent Infrastructure For Modern Businesses
         </motion.p>
