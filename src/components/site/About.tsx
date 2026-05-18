@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import founderImg from "@/assets/founder.jpg";
 
 export function About() {
   return (
@@ -35,12 +36,18 @@ export function About() {
             className="lg:col-span-5"
           >
             <div className="relative aspect-[4/5] w-full overflow-hidden rounded-3xl glass-strong">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/15 via-transparent to-secondary/15" />
-              <div className="absolute inset-0 grid grid-cols-12 grid-rows-12">
-                {Array.from({ length: 144 }).map((_, k) => (
-                  <div key={k} className="border border-white/[0.025]" />
-                ))}
-              </div>
+              <img
+                src={founderImg}
+                alt="Eshita Sarawgi, Founder of NETRA"
+                loading="eager"
+                decoding="async"
+                fetchPriority="high"
+                className="absolute inset-0 h-full w-full object-cover object-[50%_20%]"
+                style={{ filter: "contrast(1.12) saturate(1.18) brightness(1.06)" }}
+              />
+              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-background/85 via-background/10 to-transparent" />
+              <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-secondary/10 mix-blend-overlay" />
+              <div className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-white/10 rounded-3xl" />
               <div className="absolute inset-x-0 bottom-0 p-6 sm:p-8">
                 <div className="flex items-center justify-between">
                   <div>
