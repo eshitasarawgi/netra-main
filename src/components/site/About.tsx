@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import founderImg from "@/assets/founder.jpg";
 
 export function About() {
   return (
