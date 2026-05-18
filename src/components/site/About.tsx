@@ -42,7 +42,7 @@ export function About() {
                 loading="eager"
                 decoding="async"
                 fetchPriority="high"
-                className="absolute inset-0 h-full w-full object-cover object-[50%_75%] scale-[1.15]"
+                className="absolute inset-0 h-full w-full object-cover object-[50%_45%]"
                 style={{ filter: "contrast(1.12) saturate(1.18) brightness(1.06)" }}
               />
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-background/85 via-background/10 to-transparent" />
