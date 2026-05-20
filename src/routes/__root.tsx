@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "NETRA" },
+      { name: "description", content: "NETRA builds intelligent operational infrastructures for modern businesses." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "NETRA" },
+      { property: "og:description", content: "NETRA builds intelligent operational infrastructures for modern businesses." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "NETRA" },
+      { name: "twitter:description", content: "NETRA builds intelligent operational infrastructures for modern businesses." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a9f649b4-f027-4e12-ace2-810d78d0d00d/id-preview-a32cac89--ca701237-397f-4881-87dd-385b174ad9ae.lovable.app-1779108649455.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a9f649b4-f027-4e12-ace2-810d78d0d00d/id-preview-a32cac89--ca701237-397f-4881-87dd-385b174ad9ae.lovable.app-1779108649455.png" },
     ],
     links: [
       {
