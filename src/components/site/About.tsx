@@ -42,8 +42,8 @@ export function About() {
                 loading="eager"
                 decoding="async"
                 fetchPriority="high"
-                className="absolute inset-0 h-full w-full object-cover object-[50%_60%]"
-                style={{ filter: "contrast(1.12) saturate(1.18) brightness(1.06)" }}
+                className="absolute inset-0 h-full w-full object-cover object-[50%_85%] scale-[0.94] origin-bottom"
+                style={{ filter: "contrast(1.08) saturate(1.02) brightness(1.05) hue-rotate(-6deg)" }}
               />
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-background/85 via-background/10 to-transparent" />
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-secondary/10 mix-blend-overlay" />
