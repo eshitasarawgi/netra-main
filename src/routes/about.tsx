@@ -22,8 +22,8 @@ function AboutPage() {
         <div className="mx-auto max-w-[92rem] px-6 py-20 lg:px-10 lg:py-28">
           <Reveal>
             <div className="eyebrow">About NETRA</div>
-            <h1 className="mt-7 max-w-5xl text-4xl font-bold leading-[1.04] tracking-[-0.035em] text-foreground sm:text-6xl lg:text-7xl">
-              We design the operating architecture behind the business.
+             <h1 className="mt-7 max-w-5xl text-4xl font-light leading-[1.04] text-foreground sm:text-6xl lg:text-7xl">
+               Intelligence shaped around the business.
             </h1>
           </Reveal>
         </div>
@@ -52,8 +52,8 @@ function AboutPage() {
             </Reveal>
             <Reveal delay={0.08} className="lg:col-span-6 lg:col-start-7">
               <div className="eyebrow">Founder</div>
-              <h2 className="mt-6 text-4xl font-bold tracking-[-0.03em] text-foreground sm:text-5xl">Eshita Sarawgi</h2>
-              <p className="mt-3 font-display text-[13px] font-medium uppercase tracking-[0.16em] text-accent">Founder & Systems Architect</p>
+               <h2 className="mt-6 text-4xl font-medium text-foreground sm:text-5xl">Eshita Sarawgi</h2>
+               <p className="mt-3 font-mono text-[11px] font-medium uppercase tracking-[0.12em] text-foreground/60">Founder & Systems Architect</p>
               <div className="mt-8 space-y-6 text-[16px] leading-[1.8] text-muted-foreground">
                 <p>Eshita founded NETRA to close a gap she saw repeatedly: businesses buying software before anyone had taken the time to understand how they truly operated.</p>
                 <p>Her work sits at the intersection of business process architecture, product design and agentic systems implementation. She maps the enterprise in detail, turns that map into a deliberate system architecture, and leads the build through deployment.</p>
