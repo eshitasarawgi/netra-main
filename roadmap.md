@@ -10,4 +10,4 @@
 - [x] Redesign with anti-flash white and mineral blue-gray as the dominant base
 - [x] Replace architecture imagery with premium AI-native systems visuals
 - [x] Reduce homepage copy and strengthen dedicated-page navigation
-- [ ] Verify the redesigned experience on desktop and mobile
+- [x] Verify the redesigned experience on desktop and mobile

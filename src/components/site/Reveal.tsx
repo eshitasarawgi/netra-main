@@ -2,7 +2,6 @@ import type { ReactNode } from "react";
 
 export function Reveal({
   children,
-  delay = 0,
   className,
 }: {
   children: ReactNode;
@@ -10,10 +9,7 @@ export function Reveal({
   className?: string;
 }) {
   return (
-    <div
-      className={`reveal-enter ${className ?? ""}`}
-      style={{ animationDelay: `${delay}s` }}
-    >
+    <div className={className}>
       {children}
     </div>
   );
