@@ -7,3 +7,7 @@
 - [x] Preserve contact delivery and founder portrait
 - [x] Add shared navigation, footer, imagery and page metadata
 - [x] Verify desktop and mobile presentation
+- [ ] Redesign with anti-flash white and mineral blue-gray as the dominant base
+- [ ] Replace architecture imagery with premium AI-native systems visuals
+- [ ] Reduce homepage copy and strengthen dedicated-page navigation
+- [ ] Verify the redesigned experience on desktop and mobile
