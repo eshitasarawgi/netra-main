@@ -1,9 +1,9 @@
-import imgWorkflow from "@/assets/solutions/workflow.jpg";
-import imgDashboards from "@/assets/solutions/dashboards.jpg";
-import imgDocuments from "@/assets/solutions/documents.jpg";
-import imgCommunication from "@/assets/solutions/communication.jpg";
-import imgDecision from "@/assets/solutions/decision.jpg";
-import imgProcess from "@/assets/solutions/process.jpg";
+import imgWorkflow from "@/assets/tech/workflow.jpg";
+import imgDashboards from "@/assets/tech/dashboards.jpg";
+import imgDocuments from "@/assets/tech/documents.jpg";
+import imgCommunication from "@/assets/tech/communication.jpg";
+import imgDecision from "@/assets/tech/decision.jpg";
+import imgProcess from "@/assets/tech/process.jpg";
 
 export type Solution = {
   slug: string;
