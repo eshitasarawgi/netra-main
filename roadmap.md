@@ -1,13 +1,8 @@
-# Redesign roadmap
+# NETRA redesign roadmap
 
-- [x] Replace the visual system and remove the old flashy sections
-- [x] Rebuild the home page around NETRA's substance
-- [x] Add the solutions overview and six detailed solution pages
-- [x] Add dedicated About and Contact pages
-- [x] Preserve contact delivery and founder portrait
-- [x] Add shared navigation, footer, imagery and page metadata
-- [x] Verify desktop and mobile presentation
-- [x] Redesign with anti-flash white and mineral blue-gray as the dominant base
-- [x] Replace architecture imagery with premium AI-native systems visuals
-- [x] Reduce homepage copy and strengthen dedicated-page navigation
-- [x] Verify the redesigned experience on desktop and mobile
+- [ ] Lock Urbanist headings, Epilogue body, and the existing anti-flash white/mineral/lime/sage palette
+- [ ] Rebuild homepage with compact Method, editorial solutions, interactive industries, and technology ribbon
+- [ ] Redesign Solutions index and all six solution detail pages with contained premium imagery
+- [ ] Redesign Approach, Industries, and About with distinct visual panels
+- [ ] Remove the personal email address from visible contact/footer content
+- [ ] Verify desktop and mobile presentation, links, imagery, and preview health
