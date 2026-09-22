@@ -28,7 +28,7 @@ export const Route = createFileRoute("/")({
 function Home() {
   return (
     <>
-      <section className="border-b border-border bg-background">
+      <section className="border-b border-border bg-page-ombre">
         <div className="mx-auto grid min-h-[calc(100svh-65px)] max-w-[92rem] items-center gap-14 px-6 py-16 lg:grid-cols-12 lg:px-10 lg:py-20">
           <Reveal className="lg:col-span-5">
             <div className="border-l-2 border-mineral pl-5"><span className="eyebrow">AI-native systems · built around your enterprise</span></div>
@@ -56,7 +56,7 @@ function Home() {
       </section>
 
       {/* Method */}
-      <section className="border-b border-border bg-surface">
+      <section className="border-b border-border bg-mineral-ombre">
         <div className="mx-auto max-w-[92rem] px-6 py-24 lg:px-10 lg:py-32">
           <Reveal>
             <div className="eyebrow">The NETRA Method</div>
@@ -90,7 +90,7 @@ function Home() {
       </section>
 
       {/* Solutions */}
-      <section className="border-b border-border bg-surface">
+      <section className="border-b border-border bg-mineral-ombre">
         <div className="mx-auto max-w-[92rem] px-6 py-24 lg:px-10 lg:py-32">
           <Reveal>
             <div className="eyebrow">What We Solve</div>
@@ -123,7 +123,7 @@ function Home() {
       </section>
 
       {/* Industries */}
-      <section className="border-b border-border">
+      <section className="border-b border-border bg-page-ombre">
         <div className="mx-auto max-w-[92rem] px-6 py-24 lg:px-10 lg:py-32">
           <Reveal>
             <div className="eyebrow">Who We Build For</div>
