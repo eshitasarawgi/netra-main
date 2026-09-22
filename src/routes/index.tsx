@@ -28,10 +28,10 @@ export const Route = createFileRoute("/")({
 function Home() {
   return (
     <>
-      <section className="border-b border-border bg-page-ombre">
+      <section className="border-b border-border bg-background">
         <div className="mx-auto grid min-h-[calc(100svh-65px)] max-w-[92rem] items-center gap-14 px-6 py-16 lg:grid-cols-12 lg:px-10 lg:py-20">
           <Reveal className="lg:col-span-5">
-            <div className="border-l-2 border-mineral pl-5"><span className="eyebrow">AI-native systems · built around your enterprise</span></div>
+            <div className="border-l-2 border-sage pl-5"><span className="eyebrow">AI-native systems · built around your enterprise</span></div>
             <h1 className="mt-10 text-[3.25rem] font-light leading-[0.96] text-foreground sm:text-6xl lg:text-[5.5rem]">
               Intelligence,<br /><span className="text-mineral">architected.</span>
             </h1>
@@ -56,7 +56,7 @@ function Home() {
       </section>
 
       {/* Method */}
-      <section className="border-b border-border bg-mineral-ombre">
+      <section className="border-b border-border bg-surface">
         <div className="mx-auto max-w-[92rem] px-6 py-24 lg:px-10 lg:py-32">
           <Reveal>
             <div className="eyebrow">The NETRA Method</div>
@@ -90,7 +90,7 @@ function Home() {
       </section>
 
       {/* Solutions */}
-      <section className="border-b border-border bg-mineral-ombre">
+      <section className="border-b border-border bg-background">
         <div className="mx-auto max-w-[92rem] px-6 py-24 lg:px-10 lg:py-32">
           <Reveal>
             <div className="eyebrow">What We Solve</div>
@@ -123,7 +123,7 @@ function Home() {
       </section>
 
       {/* Industries */}
-      <section className="border-b border-border bg-page-ombre">
+      <section className="border-b border-border bg-background">
         <div className="mx-auto max-w-[92rem] px-6 py-24 lg:px-10 lg:py-32">
           <Reveal>
             <div className="eyebrow">Who We Build For</div>

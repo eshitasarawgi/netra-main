@@ -70,9 +70,6 @@
   --sage: oklch(0.72 0.045 134);
   --signal: oklch(0.91 0.22 111);
 
-  --ombre-page: linear-gradient(135deg, var(--background) 0%, color-mix(in oklab, var(--background) 86%, var(--mineral)) 54%, color-mix(in oklab, var(--background) 68%, var(--mineral)) 100%);
-  --ombre-mineral: linear-gradient(145deg, color-mix(in oklab, var(--background) 38%, var(--mineral)) 0%, color-mix(in oklab, var(--background) 58%, var(--mineral)) 48%, var(--background) 100%);
-
   --ease-arch: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
@@ -88,8 +85,6 @@
 
   body {
     background-color: var(--color-background);
-    background-image: var(--ombre-page);
-    background-attachment: fixed;
     color: var(--color-foreground);
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
@@ -103,16 +98,6 @@
     background-color: oklch(0.809 0.042 221 / 0.45);
     color: var(--color-foreground);
   }
-}
-
-@utility bg-page-ombre {
-  background-color: var(--color-background);
-  background-image: var(--ombre-page);
-}
-
-@utility bg-mineral-ombre {
-  background-color: var(--color-surface);
-  background-image: var(--ombre-mineral);
 }
 
 @utility eyebrow {
