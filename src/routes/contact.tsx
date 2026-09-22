@@ -20,8 +20,8 @@ function ContactPage() {
       <div className="mx-auto max-w-[92rem] px-6 py-20 lg:px-10 lg:py-28">
         <Reveal>
           <div className="eyebrow">Start a Conversation</div>
-          <h1 className="mt-7 max-w-4xl text-4xl font-bold leading-[1.04] tracking-[-0.035em] text-foreground sm:text-6xl lg:text-7xl">Let's understand your business.</h1>
-          <p className="mt-7 max-w-2xl text-[18px] leading-relaxed text-muted-foreground">Tell us how your operation works today, where it slows down, and what you need it to become. We will respond with questions — not a pre-packaged product.</p>
+           <h1 className="mt-7 max-w-4xl text-4xl font-light leading-[1.04] text-foreground sm:text-6xl lg:text-7xl">What should your business do next?</h1>
+           <p className="mt-7 max-w-2xl text-[18px] leading-relaxed text-muted-foreground">Show us the friction. We’ll find the system behind it.</p>
         </Reveal>
 
         <div className="mt-16 grid grid-cols-1 gap-12 border-t border-border pt-12 lg:grid-cols-12">
