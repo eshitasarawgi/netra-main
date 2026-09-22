@@ -26,7 +26,7 @@ function SolutionsIndex() {
               What problems can NETRA solve?
             </h1>
             <p className="mt-7 max-w-2xl text-[18px] leading-relaxed text-muted-foreground">
-              Outcome-led, never product-led. Six engineering categories that turn operational complexity into a clear, governed business architecture.
+               Six ways to turn operational friction into governed, intelligent systems.
             </p>
           </Reveal>
         </div>
@@ -40,21 +40,21 @@ function SolutionsIndex() {
                 <Link
                   to="/solutions/$slug"
                   params={{ slug: s.slug }}
-                  className="group block border border-border bg-background"
+                   className="group block overflow-hidden border border-border bg-background transition-colors hover:bg-mineral"
                 >
                   <img
                     src={s.image}
-                    alt={`${s.name} architectural concept`}
+                     alt={`${s.name} AI system visualization`}
                     loading={i < 2 ? "eager" : "lazy"}
                     decoding="async"
                     width={1408}
                     height={912}
-                    className="aspect-[16/9] w-full border-b border-border object-cover saturate-[0.75] transition-[filter] duration-500 group-hover:saturate-100"
+                     className="aspect-[4/3] w-full border-b border-border object-cover transition-transform duration-700 group-hover:scale-[1.02]"
                   />
                   <div className="p-7 sm:p-9">
                     <div className="font-display text-[11px] font-medium tracking-[0.2em] text-accent">{s.n}</div>
                     <h2 className="mt-4 text-2xl font-bold tracking-[-0.025em] text-foreground sm:text-3xl">{s.name}</h2>
-                    <p className="mt-4 text-[15px] leading-relaxed text-muted-foreground">{s.summary}</p>
+                     <p className="mt-4 max-w-md text-[15px] leading-relaxed text-muted-foreground">{s.summary}</p>
                     <span className="mt-8 inline-flex items-center gap-2 text-[12px] font-medium uppercase tracking-[0.16em] text-foreground">
                       Explore <span className="transition-transform group-hover:translate-x-1">→</span>
                     </span>

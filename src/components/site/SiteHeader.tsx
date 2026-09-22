@@ -4,8 +4,9 @@ import { SOLUTIONS } from "@/lib/solutions";
 
 const NAV = [
   { to: "/solutions", label: "Solutions" },
+  { to: "/approach", label: "Approach" },
+  { to: "/industries", label: "Industries" },
   { to: "/about", label: "About" },
-  { to: "/contact", label: "Contact" },
 ] as const;
 
 export function SiteHeader() {
@@ -20,7 +21,7 @@ export function SiteHeader() {
   }, [open]);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur-sm">
+    <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur-sm">
       <div className="mx-auto flex max-w-[92rem] items-center justify-between px-6 py-4 lg:px-10">
         <Link to="/" className="flex items-baseline gap-2" onClick={() => setOpen(false)}>
           <span className="font-display text-[15px] font-bold tracking-[0.28em] text-foreground">
@@ -63,15 +64,13 @@ export function SiteHeader() {
             )}
           </div>
           <Link
-            to="/"
-            hash="method"
+            to="/approach"
             className="link-underline text-[13px] font-medium text-foreground/80 transition-colors hover:text-foreground"
           >
             Approach
           </Link>
           <Link
-            to="/"
-            hash="industries"
+            to="/industries"
             className="link-underline text-[13px] font-medium text-foreground/80 transition-colors hover:text-foreground"
           >
             Industries
@@ -84,7 +83,7 @@ export function SiteHeader() {
           </Link>
           <Link
             to="/contact"
-            className="border border-foreground bg-foreground px-5 py-2.5 text-[12px] font-medium uppercase tracking-[0.14em] text-background transition-colors hover:bg-accent hover:border-accent"
+             className="border border-foreground bg-foreground px-5 py-2.5 text-[12px] font-medium uppercase tracking-[0.14em] text-background transition-colors hover:border-mineral hover:bg-mineral hover:text-foreground"
           >
             Start a Conversation
           </Link>

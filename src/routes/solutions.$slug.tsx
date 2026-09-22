@@ -49,12 +49,12 @@ function SolutionDetail() {
           <Reveal>
             <img
               src={solution.image}
-              alt={`${solution.name} architectural concept`}
+               alt={`${solution.name} AI system visualization`}
               loading="eager"
               decoding="async"
               width={1408}
               height={912}
-              className="h-[300px] w-full border border-border object-cover saturate-[0.8] sm:h-[480px] lg:h-[600px]"
+               className="h-[300px] w-full border border-border object-cover sm:h-[480px] lg:h-[600px]"
             />
           </Reveal>
         </div>
