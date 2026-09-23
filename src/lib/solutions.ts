@@ -1,9 +1,13 @@
-import imgWorkflow from "@/assets/tech/workflow.jpg";
-import imgDashboards from "@/assets/tech/dashboards.jpg";
-import imgDocuments from "@/assets/tech/documents.jpg";
-import imgCommunication from "@/assets/tech/communication.jpg";
-import imgDecision from "@/assets/tech/decision.jpg";
-import imgProcess from "@/assets/tech/process.jpg";
+import imgWorkflow from "@/assets/tech/workflow-premium.jpg";
+import imgDashboards from "@/assets/tech/dashboards-premium.jpg";
+import imgDocuments from "@/assets/tech/documents-premium.jpg";
+import imgCommunication from "@/assets/tech/communication-premium.jpg";
+import imgDecision from "@/assets/tech/decision-premium.jpg";
+import imgProcess from "@/assets/tech/process-premium.jpg";
+import imgSme from "@/assets/tech/industry-sme.jpg";
+import imgExporters from "@/assets/tech/industry-exporters.jpg";
+import imgFinance from "@/assets/tech/industry-finance.jpg";
+import imgManufacturing from "@/assets/tech/industry-manufacturing.jpg";
 
 export type Solution = {
   slug: string;
@@ -140,22 +144,30 @@ export const METHOD = [
 export const INDUSTRIES = [
   {
     n: "01",
+    slug: "sme-family-businesses",
     name: "SME & Family Businesses",
     body: "Decades of operating knowledge held in a few people's heads. We turn it into architecture the next generation can run and scale.",
+    image: imgSme,
   },
   {
     n: "02",
+    slug: "exporters",
     name: "Exporters",
     body: "Documentation, compliance, logistics and buyer communication across borders — orchestrated in one system instead of twelve spreadsheets.",
+    image: imgExporters,
   },
   {
     n: "03",
+    slug: "financial-services",
     name: "Financial Services",
     body: "Onboarding, diligence, monitoring and reporting where controls and audit trails are not optional but structural.",
+    image: imgFinance,
   },
   {
     n: "04",
+    slug: "manufacturing-industrial",
     name: "Manufacturing & Industrial",
     body: "Planning, procurement, quality and dispatch connected end to end, so the plant floor and the P&L finally describe the same day.",
+    image: imgManufacturing,
   },
 ];
