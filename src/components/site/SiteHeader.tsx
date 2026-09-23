@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "@tanstack/react-router";
+import { Button } from "@/components/ui/button";
 import { SOLUTIONS } from "@/lib/solutions";
 
 const NAV = [
@@ -89,12 +90,14 @@ export function SiteHeader() {
           </Link>
         </nav>
 
-        <button
+        <Button
           type="button"
+          variant="outline"
+          size="icon"
           aria-label={open ? "Close menu" : "Open menu"}
           aria-expanded={open}
           onClick={() => setOpen((v) => !v)}
-          className="flex h-9 w-9 items-center justify-center border border-border md:hidden"
+          className="rounded-none md:hidden"
         >
           <span className="relative block h-3 w-4">
             <span
@@ -104,7 +107,7 @@ export function SiteHeader() {
               className={`absolute left-0 h-px w-4 bg-foreground transition-transform duration-300 ${open ? "top-1.5 -rotate-45" : "top-3"}`}
             />
           </span>
-        </button>
+        </Button>
       </div>
 
       {/* Mobile panel */}

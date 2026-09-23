@@ -9,6 +9,8 @@ export const Route = createFileRoute("/contact")({
       { name: "description", content: "Tell NETRA how your business operates today. Begin a discovery conversation about custom agentic enterprise architecture." },
       { property: "og:title", content: "Start a Conversation — NETRA" },
       { property: "og:description", content: "Every NETRA engagement begins with understanding the business, not pitching software." },
+       { property: "og:type", content: "website" },
+       { name: "twitter:card", content: "summary" },
     ],
   }),
   component: ContactPage,
@@ -20,7 +22,7 @@ function ContactPage() {
       <div className="mx-auto max-w-[92rem] px-6 py-20 lg:px-10 lg:py-28">
         <Reveal>
           <div className="eyebrow">Start a Conversation</div>
-           <h1 className="mt-7 max-w-4xl text-4xl font-light leading-[1.04] text-foreground sm:text-6xl lg:text-7xl">What should your business do next?</h1>
+           <h1 className="mt-7 max-w-4xl text-4xl font-semibold leading-[1.04] text-foreground sm:text-6xl lg:text-7xl">What should your business do next?</h1>
            <p className="mt-7 max-w-2xl text-[18px] leading-relaxed text-muted-foreground">Show us the friction. We’ll find the system behind it.</p>
         </Reveal>
 
@@ -35,11 +37,7 @@ function ContactPage() {
                 ["03", "We define where accurate process mapping should begin."],
               ].map(([n, text]) => <li key={n} className="grid grid-cols-[2rem_1fr] gap-4 border-b border-border py-5"><span className="font-display text-[10px] tracking-[0.18em] text-accent">{n}</span><span className="text-[15px] leading-relaxed text-foreground">{text}</span></li>)}
             </ol>
-            <div className="mt-10 border-t border-border pt-7">
-              <div className="eyebrow">Direct</div>
-              <a href="mailto:eshisara@gmail.com" className="link-underline mt-4 inline-block text-[16px] text-foreground">eshisara@gmail.com</a>
-              <p className="mt-3 text-[14px] text-muted-foreground">Jaipur, Rajasthan · India</p>
-            </div>
+            <div className="mt-10 border-t border-border pt-7"><div className="inline-flex bg-accent px-3 py-2"><div className="eyebrow">NETRA · India</div></div><p className="mt-4 text-[14px] leading-relaxed text-muted-foreground">Your message routes directly to the founder’s office.</p></div>
           </Reveal>
         </div>
       </div>

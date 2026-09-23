@@ -1,7 +1,9 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Reveal } from "@/components/site/Reveal";
 import { ClosingCTA } from "@/components/site/ClosingCTA";
+import { Button } from "@/components/ui/button";
 import founderImg from "@/assets/founder-v3.jpg";
+import philosophyImg from "@/assets/tech/operating-philosophy.jpg";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -10,6 +12,8 @@ export const Route = createFileRoute("/about")({
       { name: "description", content: "NETRA is an agentic systems architecture firm founded by Eshita Sarawgi, building custom enterprise operating systems end to end." },
       { property: "og:title", content: "About NETRA — Agentic Systems Architecture" },
       { property: "og:description", content: "A boutique architecture firm built around one principle: understand the business before engineering its system." },
+       { property: "og:type", content: "website" },
+       { name: "twitter:card", content: "summary" },
     ],
   }),
   component: AboutPage,
@@ -22,7 +26,7 @@ function AboutPage() {
         <div className="mx-auto max-w-[92rem] px-6 py-20 lg:px-10 lg:py-28">
           <Reveal>
             <div className="eyebrow">About NETRA</div>
-             <h1 className="mt-7 max-w-5xl text-4xl font-light leading-[1.04] text-foreground sm:text-6xl lg:text-7xl">
+              <h1 className="mt-7 max-w-5xl text-4xl font-semibold leading-[1.04] text-foreground sm:text-6xl lg:text-7xl">
                Intelligence shaped around the business.
             </h1>
           </Reveal>
@@ -32,8 +36,8 @@ function AboutPage() {
       <section className="border-b border-border">
         <div className="mx-auto max-w-[92rem] px-6 py-20 lg:px-10 lg:py-28">
           <div className="grid grid-cols-1 gap-14 lg:grid-cols-12">
-            <Reveal className="lg:col-span-4"><div className="eyebrow">Our Operating Philosophy</div></Reveal>
-            <div className="space-y-9 lg:col-span-8">
+            <Reveal className="lg:col-span-5"><div className="inline-flex bg-accent px-3 py-2"><div className="eyebrow">Our Operating Philosophy</div></div><div className="mt-7 border border-border bg-card p-3"><img src={philosophyImg} alt="Complex business operations resolving into governed intelligence" width={1536} height={1024} loading="eager" className="aspect-[3/2] w-full object-cover" /></div></Reveal>
+            <div className="space-y-9 lg:col-span-6 lg:col-start-7">
               <Reveal><p className="text-2xl font-medium leading-[1.45] tracking-[-0.015em] text-foreground sm:text-3xl">A powerful system cannot be designed from a feature list. It has to begin with an exact understanding of how the enterprise moves — where decisions happen, where work slows, where risk enters and where knowledge lives.</p></Reveal>
               <Reveal delay={0.05}><p className="text-[17px] leading-[1.8] text-muted-foreground">That is why NETRA combines business process architecture with product design and implementation. We do not leave the hardest part — translating the operating reality into a working system — to another vendor. The same thinking carries from the first map to the deployed product.</p></Reveal>
               <Reveal delay={0.1}><p className="text-[17px] leading-[1.8] text-muted-foreground">The result is not another tool layered over the business. It is infrastructure shaped around the business itself: intelligent where intelligence creates leverage, controlled where control matters, and owned long after it goes live.</p></Reveal>
@@ -47,7 +51,7 @@ function AboutPage() {
           <div className="grid grid-cols-1 items-start gap-14 lg:grid-cols-12">
             <Reveal className="lg:col-span-5">
               <div className="overflow-hidden border border-border bg-background">
-                <img src={founderImg} alt="Eshita Sarawgi, founder of NETRA" loading="eager" decoding="async" width={870} height={1920} className="aspect-[4/5] w-full object-cover object-[50%_35%] scale-[0.94] origin-top saturate-[0.88] contrast-[1.04]" />
+                <img src={founderImg} alt="Eshita Sarawgi, founder of NETRA" loading="lazy" decoding="async" width={870} height={1920} className="aspect-[4/5] w-full origin-top scale-[0.94] object-cover object-[50%_35%] saturate-[0.88] contrast-[1.04]" />
               </div>
             </Reveal>
             <Reveal delay={0.08} className="lg:col-span-6 lg:col-start-7">
@@ -59,7 +63,7 @@ function AboutPage() {
                 <p>Her work sits at the intersection of business process architecture, product design and agentic systems implementation. She maps the enterprise in detail, turns that map into a deliberate system architecture, and leads the build through deployment.</p>
                 <p>Her conviction is simple: technology should not force a business into someone else's template. The system should be shaped around the intelligence, controls and ambitions of the business it serves.</p>
               </div>
-              <Link to="/contact" className="mt-10 inline-block border border-foreground bg-foreground px-7 py-4 text-[12px] font-medium uppercase tracking-[0.16em] text-background transition-colors hover:border-accent hover:bg-accent">Start a Conversation</Link>
+               <Button asChild size="lg" className="mt-10 rounded-none"><Link to="/contact">Start a Conversation</Link></Button>
             </Reveal>
           </div>
         </div>
