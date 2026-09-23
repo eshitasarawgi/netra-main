@@ -40,12 +40,8 @@ export function SiteFooter() {
               <Link to="/contact" className="link-underline w-fit text-[14px] text-foreground/80 hover:text-foreground">
                 Contact
               </Link>
-              <a
-                href="mailto:eshisara@gmail.com"
-                className="link-underline w-fit text-[14px] text-foreground/80 hover:text-foreground"
-              >
-                eshisara@gmail.com
-              </a>
+              <Link to="/approach" className="link-underline w-fit text-[14px] text-foreground/80 hover:text-foreground">Approach</Link>
+              <Link to="/industries" className="link-underline w-fit text-[14px] text-foreground/80 hover:text-foreground">Industries</Link>
             </div>
 
             <div className="mt-8 eyebrow">Elsewhere</div>
