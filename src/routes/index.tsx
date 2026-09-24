@@ -1,9 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Reveal } from "@/components/site/Reveal";
 import { ClosingCTA } from "@/components/site/ClosingCTA";
-import { SolutionShowcase } from "@/components/site/SolutionShowcase";
-import { IndustryShowcase } from "@/components/site/IndustryShowcase";
-import { METHOD } from "@/lib/solutions";
+import { TechnologyRibbon } from "@/components/site/TechnologyRibbon";
+import { INDUSTRIES, METHOD, SOLUTIONS } from "@/lib/solutions";
 import coreImg from "@/assets/tech/netra-core-premium.jpg";
 import methodImg from "@/assets/tech/netra-method-premium.jpg";
 
@@ -82,36 +81,29 @@ function Home() {
         </div>
       </section>
 
-      {/* Solutions */}
       <section className="border-b border-border bg-background">
-        <div className="mx-auto max-w-[92rem] px-6 py-24 lg:px-10 lg:py-32">
-          <Reveal>
-            <div className="eyebrow">What We Solve</div>
-            <h2 className="mt-6 max-w-3xl text-3xl font-medium leading-[1.08] text-foreground sm:text-5xl">Six systems. One operating advantage.</h2>
+        <div className="mx-auto grid max-w-[92rem] gap-px bg-border px-0 lg:grid-cols-2">
+          <Reveal className="bg-background p-6 py-16 sm:p-10 lg:p-14 lg:py-20">
+            <div className="eyebrow">Systems</div>
+            <h2 className="mt-5 max-w-xl text-3xl font-semibold leading-[1.08] sm:text-4xl">Six systems. Built around one operation.</h2>
+            <p className="mt-5 max-w-lg text-[15px] leading-relaxed text-muted-foreground">From workflow automation to decision support, explore the architectures NETRA engineers.</p>
+            <div className="mt-8 flex flex-wrap gap-2" aria-label="NETRA systems">
+              {SOLUTIONS.map((solution) => <span key={solution.slug} className="border border-border bg-card px-3 py-2 font-mono text-[9px] uppercase">{solution.name}</span>)}
+            </div>
+            <Link to="/solutions" className="mt-9 inline-flex bg-foreground px-6 py-4 text-[11px] font-semibold uppercase text-background transition-colors hover:bg-signal hover:text-foreground">Explore solutions →</Link>
           </Reveal>
-
-          <Reveal><div className="mt-12"><SolutionShowcase /></div></Reveal>
-        </div>
-      </section>
-
-      {/* Industries */}
-      <section className="border-b border-border bg-background">
-        <div className="mx-auto max-w-[92rem] px-6 py-24 lg:px-10 lg:py-32">
-          <Reveal>
-            <div className="eyebrow">Who We Build For</div>
-            <h2 className="mt-6 max-w-3xl text-3xl font-medium leading-[1.08] text-foreground sm:text-5xl">Built where operational intelligence compounds.</h2>
+          <Reveal delay={0.06} className="bg-surface p-6 py-16 sm:p-10 lg:p-14 lg:py-20">
+            <div className="eyebrow">Industries</div>
+            <h2 className="mt-5 max-w-xl text-3xl font-semibold leading-[1.08] sm:text-4xl">Built where operational intelligence compounds.</h2>
+            <div className="mt-8 border-t border-foreground/20">
+              {INDUSTRIES.map((industry) => <div key={industry.slug} className="grid grid-cols-[2rem_minmax(0,1fr)] gap-3 border-b border-foreground/20 py-3"><span className="font-mono text-[9px]">{industry.n}</span><span className="text-sm font-semibold">{industry.name}</span></div>)}
+            </div>
+            <Link to="/industries" className="mt-9 inline-flex border border-foreground px-6 py-4 text-[11px] font-semibold uppercase text-foreground transition-colors hover:bg-foreground hover:text-background">Explore industries →</Link>
           </Reveal>
-
-          <Reveal><div className="mt-12"><IndustryShowcase compact /></div></Reveal>
         </div>
       </section>
 
-      <section className="border-b border-border bg-background py-8">
-        <div className="mx-auto flex max-w-[92rem] flex-wrap items-center gap-x-10 gap-y-4 px-6 lg:px-10">
-          <span className="eyebrow bg-accent px-3 py-2">Technology ecosystem</span>
-          {["OpenAI", "Anthropic", "Google Cloud", "Microsoft Azure", "AWS", "PostgreSQL", "Cloudflare"].map((name) => <span key={name} className="font-display text-sm font-semibold text-muted-foreground">{name}</span>)}
-        </div>
-      </section>
+      <TechnologyRibbon />
 
       <ClosingCTA />
     </>

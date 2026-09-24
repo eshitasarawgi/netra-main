@@ -37,10 +37,10 @@ function AboutPage() {
         <div className="mx-auto max-w-[92rem] px-6 py-20 lg:px-10 lg:py-28">
           <div className="grid grid-cols-1 gap-14 lg:grid-cols-12">
             <Reveal className="lg:col-span-5"><div className="inline-flex bg-accent px-3 py-2"><div className="eyebrow">Our Operating Philosophy</div></div><div className="mt-7 border border-border bg-card p-3"><img src={philosophyImg} alt="Complex business operations resolving into governed intelligence" width={1536} height={1024} loading="eager" className="aspect-[3/2] w-full object-cover" /></div></Reveal>
-            <div className="space-y-9 lg:col-span-6 lg:col-start-7">
-              <Reveal><p className="text-2xl font-medium leading-[1.45] tracking-[-0.015em] text-foreground sm:text-3xl">A powerful system cannot be designed from a feature list. It has to begin with an exact understanding of how the enterprise moves — where decisions happen, where work slows, where risk enters and where knowledge lives.</p></Reveal>
-              <Reveal delay={0.05}><p className="text-[17px] leading-[1.8] text-muted-foreground">That is why NETRA combines business process architecture with product design and implementation. We do not leave the hardest part — translating the operating reality into a working system — to another vendor. The same thinking carries from the first map to the deployed product.</p></Reveal>
-              <Reveal delay={0.1}><p className="text-[17px] leading-[1.8] text-muted-foreground">The result is not another tool layered over the business. It is infrastructure shaped around the business itself: intelligent where intelligence creates leverage, controlled where control matters, and owned long after it goes live.</p></Reveal>
+            <div className="space-y-7 lg:col-span-6 lg:col-start-7">
+              <Reveal><p className="text-2xl font-medium leading-[1.4] text-foreground sm:text-3xl">Powerful systems do not begin with features. They begin with the truth of how a business moves.</p></Reveal>
+              <Reveal delay={0.05}><p className="text-[17px] leading-[1.75] text-muted-foreground">NETRA unites process architecture, product design and implementation under one accountable team. The thinking never breaks between the first map and the deployed system.</p></Reveal>
+              <Reveal delay={0.1}><p className="text-[17px] leading-[1.75] text-muted-foreground">The result is not another tool. It is intelligent infrastructure shaped around the business — controlled where control matters, decisive where intelligence creates leverage.</p></Reveal>
             </div>
           </div>
         </div>
@@ -50,8 +50,8 @@ function AboutPage() {
         <div className="mx-auto max-w-[92rem] px-6 py-20 lg:px-10 lg:py-28">
           <div className="grid grid-cols-1 items-start gap-14 lg:grid-cols-12">
             <Reveal className="lg:col-span-5">
-              <div className="overflow-hidden border border-border bg-background">
-                <img src={founderImg} alt="Eshita Sarawgi, founder of NETRA" loading="lazy" decoding="async" width={870} height={1920} className="aspect-[4/5] w-full origin-top scale-[0.94] object-cover object-[50%_35%] saturate-[0.88] contrast-[1.04]" />
+               <div className="overflow-hidden bg-background">
+                 <img src={founderImg} alt="Eshita Sarawgi, founder of NETRA" loading="lazy" decoding="async" width={870} height={1920} className="aspect-[4/5] w-full object-cover object-[50%_47%] saturate-[0.92] contrast-[1.04]" />
               </div>
             </Reveal>
             <Reveal delay={0.08} className="lg:col-span-6 lg:col-start-7">

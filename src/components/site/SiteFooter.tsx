@@ -9,8 +9,7 @@ export function SiteFooter() {
           <div className="md:col-span-5">
             <div className="font-display text-[15px] font-bold tracking-[0.28em] text-foreground">NETRA</div>
             <p className="mt-5 max-w-sm text-[15px] leading-relaxed text-muted-foreground">
-              Custom agentic enterprise architecture. We map how your business operates, architect the
-              system it needs, and build, deploy and govern it end to end.
+              Custom agentic systems, architected around how your business actually operates.
             </p>
             <p className="mt-6 text-[13px] text-muted-foreground">Jaipur, Rajasthan · India</p>
           </div>

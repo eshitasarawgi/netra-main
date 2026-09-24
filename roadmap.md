@@ -1,8 +1,9 @@
-# NETRA redesign roadmap
+# NETRA refinement roadmap
 
-- [x] Lock Urbanist headings, Epilogue body, and the existing anti-flash white/mineral/lime/sage palette
-- [x] Rebuild homepage with compact Method, editorial solutions, interactive industries, and technology ribbon
-- [x] Redesign Solutions index and all six solution detail pages with contained premium imagery
-- [x] Redesign Approach, Industries, and About with distinct visual panels
-- [x] Remove the personal email address from visible contact/footer content
-- [x] Verify desktop and mobile presentation, links, imagery, and preview health
+- [x] Replace the long homepage Solutions and Industries sections with compact destination panels
+- [x] Add a flowing technology-logo ribbon
+- [x] Upgrade the Workflow Automation and Business Process Engineering visuals
+- [x] Rebuild Approach as four visual-led panels for Map, Architect, Deploy, and Govern
+- [x] Tighten About copy and reframe the founder portrait
+- [x] Increase lime visibility in the contact next-steps panel and shorten the footer statement
+- [ ] Verify every changed page on phone and desktop
