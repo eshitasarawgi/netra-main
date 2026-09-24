@@ -139,6 +139,19 @@
   to { opacity: 1; transform: translateY(0); }
 }
 
+@keyframes technology-marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.technology-marquee {
+  animation: technology-marquee 28s linear infinite;
+}
+
+.technology-marquee:hover {
+  animation-play-state: paused;
+}
+
 .reveal-enter {
   animation: reveal-enter 0.65s var(--ease-arch) both;
 }
@@ -147,5 +160,9 @@
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
+  }
+
+  .technology-marquee {
+    animation: none;
   }
 }

@@ -35,7 +35,7 @@ function ContactPage() {
                 ["01", "We read the operating context you share."],
                 ["02", "We schedule a focused discovery conversation."],
                 ["03", "We define where accurate process mapping should begin."],
-              ].map(([n, text]) => <li key={n} className="grid grid-cols-[2rem_1fr] gap-4 border-b border-border py-5"><span className="font-display text-[10px] tracking-[0.18em] text-accent">{n}</span><span className="text-[15px] leading-relaxed text-foreground">{text}</span></li>)}
+               ].map(([n, text]) => <li key={n} className="grid grid-cols-[2rem_minmax(0,1fr)] gap-4 border-b border-border py-5"><span className="grid h-7 w-7 place-items-center bg-accent font-mono text-[9px] font-semibold text-foreground">{n}</span><span className="text-[15px] leading-relaxed text-foreground">{text}</span></li>)}
             </ol>
             <div className="mt-10 border-t border-border pt-7"><div className="inline-flex bg-accent px-3 py-2"><div className="eyebrow">NETRA · India</div></div><p className="mt-4 text-[14px] leading-relaxed text-muted-foreground">Your message routes directly to the founder’s office.</p></div>
           </Reveal>
