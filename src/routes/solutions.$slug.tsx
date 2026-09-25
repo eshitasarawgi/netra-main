@@ -34,10 +34,10 @@ function SolutionDetail() {
         <header className="border-b border-border">
           <div className="mx-auto grid max-w-[92rem] gap-10 px-6 py-14 lg:grid-cols-12 lg:items-center lg:px-10 lg:py-20">
             <Reveal className="lg:col-span-6">
-              <div className="flex flex-wrap items-center gap-2 text-[11px] font-medium uppercase tracking-[0.18em] text-muted-foreground">
+              <div className="flex flex-wrap items-center gap-2 text-[11px] font-medium uppercase text-muted-foreground">
                 <Link to="/solutions" className="hover:text-foreground">Solutions</Link>
                 <span>/</span>
-                <span className="text-accent">{solution.name}</span>
+                <span className="bg-accent px-3 py-2 text-accent-foreground">{solution.name}</span>
               </div>
                <h1 className="mt-8 max-w-4xl text-4xl font-semibold leading-[1.03] text-foreground sm:text-6xl">
                 {solution.headline}

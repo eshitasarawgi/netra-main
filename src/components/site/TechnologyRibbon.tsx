@@ -37,10 +37,8 @@ export function TechnologyRibbon() {
   const repeated = [...BRANDS, ...BRANDS];
 
   return (
-    <section className="overflow-hidden border-b border-border bg-accent py-5" aria-label="Technology ecosystem">
-      <div className="mb-4 px-6 lg:px-10">
-        <span className="eyebrow">Technology ecosystem</span>
-      </div>
+    <section className="overflow-hidden border-b border-border bg-accent py-4" aria-label="Technology ecosystem">
+      <div className="mb-3 px-6 lg:px-10"><span className="eyebrow">Technology ecosystem · built on the platforms enterprises trust</span></div>
       <div className="technology-marquee flex w-max items-center" aria-hidden="true">
         {repeated.map((brand, index) => (
           <div key={`${brand.name}-${index}`} className="flex shrink-0 items-center gap-3 px-7 text-foreground sm:px-10">

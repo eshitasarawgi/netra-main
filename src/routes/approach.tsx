@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Reveal } from "@/components/site/Reveal";
 import { ClosingCTA } from "@/components/site/ClosingCTA";
 import { METHOD } from "@/lib/solutions";
-import methodImg from "@/assets/tech/netra-method-premium.jpg";
+import methodImg from "@/assets/tech/netra-method-signature.jpg";
 import mapImg from "@/assets/tech/method-map.jpg";
 import architectImg from "@/assets/tech/method-architect.jpg";
 import deployImg from "@/assets/tech/method-deploy.jpg";
