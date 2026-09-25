@@ -7,3 +7,9 @@
 - [x] Tighten About copy and reframe the founder portrait
 - [x] Increase lime visibility in the contact next-steps panel and shorten the footer statement
 - [ ] Verify every changed page on phone and desktop
+- [ ] Replace the homepage hero visual and tighten its opening sequence
+- [ ] Move the technology ribbon directly below the homepage hero
+- [ ] Redesign the homepage Method panel and activate every system and industry link
+- [ ] Strengthen solution-name highlights and replace the Executive Dashboards visual
+- [ ] Replace the Approach cover visual without changing the four stage visuals
+- [ ] Add a visual-led Industries introduction with stronger lime accents
