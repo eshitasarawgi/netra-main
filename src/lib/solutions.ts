@@ -1,5 +1,5 @@
 import imgWorkflow from "@/assets/tech/workflow-premium-v2.jpg";
-import imgDashboards from "@/assets/tech/dashboards-premium.jpg";
+import imgDashboards from "@/assets/tech/dashboards-signature.jpg";
 import imgDocuments from "@/assets/tech/documents-premium.jpg";
 import imgCommunication from "@/assets/tech/communication-premium.jpg";
 import imgDecision from "@/assets/tech/decision-premium.jpg";
